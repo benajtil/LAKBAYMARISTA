@@ -9,7 +9,13 @@
 }
 
 .navbar {
-    background-color: rgb(17, 16, 16);
+    background-color: rgb(16, 15, 15);
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link{
+    color: rgb(230, 236, 241) !important;
 }
 
 body{
@@ -17,3 +23,16 @@ body{
     margin-right: auto;
     height: auto;
 }
+
+.bgvid{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.7);
+}
+
+
