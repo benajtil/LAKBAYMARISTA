@@ -21,18 +21,23 @@
 body{
     margin-left: auto;
     margin-right: auto;
-    height: auto;
+    min-height: 200vh;
+    position: relative;
+    background-color: rgb(7, 6, 6);
 }
 
+.homepage{
+    position: relative;
+}
 .bgvid{
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 284%;
     object-fit: cover;
     z-index: -1;
-    filter: brightness(0.7);
+    filter: brightness(0.8);
 }
 
-
+#carousel1{
+    padding-top: 50%;
+}
